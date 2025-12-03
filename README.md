@@ -9,3 +9,6 @@ Homework for the course computer graphics in [Sichuan University](https://en.scu
 
 第二次作业：
 [HW2](./HW2-TODO/3d-wandering.html)
+
+第三次作业：
+[HW3](./HW3-TODO/phongshading-todo/Phongshading.html)
