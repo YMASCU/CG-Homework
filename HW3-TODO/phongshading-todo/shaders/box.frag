@@ -3,7 +3,7 @@ precision mediump float;
 
 out vec4 FragColor;
 
-uniform float alpha;
+uniform float opacity;
 uniform float ambientStrength, specularStrength, diffuseStrength,shininess;
 
 in vec3 Normal;//法向量
@@ -81,7 +81,7 @@ void main()
     //vec3 resultColor =(ambient + (1.0-shadow) * (diffuse + specular))* TextureColor;
     vec3 resultColor=(1.0-shadow/2.0)* lightReflectColor * TextureColor;
     
-    FragColor = vec4(resultColor, alpha);
+    FragColor = vec4(resultColor, opacity);
 }
 
 
